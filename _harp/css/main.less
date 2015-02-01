@@ -32,9 +32,24 @@
   }
 }
 
-body {
-  // Background image: Eight Horns by Patutin Sergey, found on subtlepatterns.com
-  background: url('/img/eight_horns.png');
+@media only screen and (min-width: 1001px) {
+  body {
+    // Background image: Eight Horns by Patutin Sergey, found on subtlepatterns.com
+    background: url('/img/eight_horns.png')!important;
+  }
+
+  div.container-narrow {
+    border: transparent;
+    border-radius: 15px;
+  }
+
+  h1 {
+    font-size: 257%!important;
+  }
+
+  p, li {
+    font-size: larger;
+  }
 }
 
 div#bucket {
@@ -48,15 +63,12 @@ div.container-narrow {
   width: 100%;
   background: #FFF;
   padding: 0% 1% 1% 2%;
-  border: transparent;
-  border-radius: 15px;
 }
 
 h1 {
   font-family: 'Arimo', sans-serif!important;
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 15px 0px;
   margin: 0px!important;
-  font-size: 257%!important;
 }
 
 h2 {
@@ -69,8 +81,7 @@ h2 {
 }
 
 p, li {
-  font-size: larger;
-  padding-bottom: 5px;
+  padding-bottom: 10px;
 }
 
 a:link {
