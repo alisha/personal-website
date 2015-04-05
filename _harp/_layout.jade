@@ -1,42 +1,11 @@
-doctype
-html
+doctype html
+html(lang="en")
   head
-    link(rel="stylesheet" href="/css/main.css")
-    link(rel="stylesheet" href="/css/bootstrap-theme.min.css")
-    link(rel="stylesheet" href="/css/bootstrap.min.css")
-    link(rel="stylesheet" href="/css/font-awesome.min.css")
-
-    title Alisha Ukani
+    title= Alisha Ukani
 
   body
-    div(class="row" id="bucket")
-      div(class="col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2")
-        div(class="container-narrow")
-
-          nav(class="navbar navbar-default" role="navigation")
-            div(class="container-fluid")
-              div(class="navbar-header")
-                button(type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1")
-                  span(class="sr-only") Toggle navigation
-                  span(class="icon-bar")
-                  span(class="icon-bar")
-                  span(class="icon-bar")
-                a(class="navbar-brand" href="/") Alisha Ukani
-              div(class="collapse navbar-collapse" id="navbar-collapse-1")
-                ul(class="nav navbar-nav navbar-right")
-                  li
-                    a(href="cs") Computer Science
-                  li
-                    a(href="projects") Projects
-                  li
-                    a(href="http://github.com/alisha")
-                      i(class="fa fa-github")
-                  li
-                    a(href="http://linkedin.com/in/alishaukani")
-                      i(class="fa fa-linkedin")
-
-          div(id="content")
-            != yield
-
-    script(src="http://code.jquery.com/jquery-1.11.2.min.js")
-    script(src="/js/bootstrap.min.js")
+    div(class="row")
+      div(class="col-md-4")
+        h1 Alisha Ukani
+      div(class="col-md-8")
+        p Hi
