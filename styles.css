@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Lora|Oswald);
+
+/* Fonts */
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #207FA0;
+}
+
+h3, div#navbar a:link, div#navbar a:visited {
+  font-family: 'Oswald', sans-serif;
+  color: #204755;
+}
+
+p, li {
+  font-family: 'Lora', serif;
+  color: #1C1D1D;
+}
+
+a:link, a:visited {
+  font-family: 'Lora', serif;
+  color: #207FA0;
+}
+
+a.media {
+  font-size: 150%;
+}
+
+/* Spacing */
+html, body, div.row {
+  height: 100%;
+  margin-top: 0;
+}
+
+div#navbar {
+  width: 15%;
+  border-right: solid;
+  border-color: #204755;
+  padding-left: 1%;
+}
+
+div#content {
+  padding-left: 5%;
+  width: 50%;
+}
+
+p.indent {
+  padding-left: 40px;
+}
+
+a.media {
+  margin-right: 10px;
+}
+
+/* Ungrid */
+@media (min-width: 30em) {
+  .row { width: 100%; display: table; table-layout: fixed; }
+  .col { display: table-cell; }
+}
