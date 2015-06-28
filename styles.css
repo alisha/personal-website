@@ -56,3 +56,46 @@ a.media {
   .row { width: 100%; display: table; table-layout: fixed; }
   .col { display: table-cell; }
 }
+
+/* Responsive */
+@media (min-width: 646px) {
+  div#navbar a {
+    display: block;
+  }
+}
+
+@media (max-width: 645px) {
+  div#navbar {
+    border: none;
+  }
+
+  div#spacing {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+  }
+
+  div#navbar, div#content {
+    padding-left: 2%;
+  }
+
+  div#content {
+    width: 87%;
+  }
+
+  div#navbar {
+    width: 100%;
+    border-bottom: solid;
+    border-color: #204755;
+    padding-bottom: 4%;
+  }
+
+  div#navbar a {
+    display: inline-block;
+    padding-right: 1%;
+  }
+}
