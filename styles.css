@@ -58,12 +58,6 @@ a.media {
 }
 
 /* Responsive */
-@media (min-width: 646px) {
-  div#navbar a {
-    display: block;
-  }
-}
-
 @media (max-width: 645px) {
   div#navbar {
     border: none;
@@ -74,7 +68,13 @@ a.media {
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 480px) {
+  div#navbar a {
+    display: block;
+  }
+}
+
+@media (max-width: 479px) {
   body {
     margin: 0;
   }
