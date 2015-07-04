@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Lora|Oswald);
+
+/* Fonts */
+h1, h2, a:link, a:visited {
+  color: #608152;
+}
+
+h3, h4, div#navbar a:link, div#navbar a:visited {
+  color: #91AC75;
+}
+
+p, li {
+  color: #29121A;
+}
+
+
+a.media {
+  font-size: 150%;
+}
+
+/* Spacing */
+html, body, div.row {
+  height: 100%;
+  margin-top: 0;
+}
+
+div#navbar div, div#navbar a {
+  display: inline!important;
+}
+
+div#navbar {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+p.indent {
+  padding-left: 40px;
+}
+
+a.media {
+  margin-right: 10px;
+}
