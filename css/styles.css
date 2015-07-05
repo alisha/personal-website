@@ -21,11 +21,15 @@ a.media {
 /* Spacing */
 html, body, div.row {
   height: 100%;
-  margin-top: 0;
 }
 
-div#navbar div, div#navbar a {
+div.row {
+  margin: 0 1% 0 2%;
+}
+
+div#navbar h5 {
   display: inline!important;
+  padding-right: 3%;
 }
 
 div#navbar {
@@ -33,7 +37,7 @@ div#navbar {
   padding-bottom: 3%;
 }
 
-p.indent {
+p.indent, div#content h5, div#content h5 {
   padding-left: 40px;
 }
 
