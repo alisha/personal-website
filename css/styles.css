@@ -1,46 +1,64 @@
-@import url(http://fonts.googleapis.com/css?family=Lora|Oswald);
+@import url(http://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,700);
 
-/* Fonts */
-h1, h2, a:link, a:visited {
-  color: #608152;
+body {
+	background-image: url('../concrete_seamless.png');
 }
 
-h3, h4, div#navbar a:link, div#navbar a:visited {
-  color: #91AC75;
+div#content {
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 25px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+	padding: 0px 20px 10px 20px;
 }
 
-p, li {
-  color: #29121A;
+h1, h2 {
+	font-family: 'Lato', sans-serif;
+	color: #3F9094;
+	text-align: center;
 }
 
-
-a.media {
-  font-size: 150%;
+h1 {
+	font-size: 45px!important;
+	line-height: 54px;
 }
 
-/* Spacing */
-html, body, div.row {
-  height: 100%;
+h2 {
+	font-size: 30px;
+	line-height: 36px;
 }
 
-div.row {
-  margin: 0 1% 0 2%;
-}
-
-div#navbar h5 {
-  display: inline!important;
-  padding-right: 3%;
-}
-
-div#navbar {
+h3 {
+  font-family: 'Lato', sans-serif;
   text-align: center;
-  padding-bottom: 3%;
+  font-size: 25px;
+  line-height: 30px;
 }
 
-p.indent, div#content h5, div#content h5 {
+p, ul li {
+	font-family: 'Playfair Display', serif;
+	font-size: 19px;
+	line-height: 25px;
+	margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+p.indent {
   padding-left: 40px;
 }
 
-a.media {
-  margin-right: 10px;
+table {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+td {
+  vertical-align: top;
+  padding-right: 5px;
+}
+
+a:link, a:visited {
+	color: #3F9094;
 }
