@@ -1,21 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato|Droid+Serif|Merriweather|Roboto+Slab:400,700);
 
-body {
-	background-image: url('../concrete_seamless.png');
-}
-
-div#content {
-	background: rgba(255, 255, 255, 0.5);
-	border-radius: 25px;
-
-  margin-top: 20px;
-  margin-bottom: 20px;
-	padding: 0px 20px 10px 20px;
+div.container-fluid {
+  padding-bottom: 2%;
 }
 
 h1, h2 {
 	font-family: 'Lato', sans-serif;
-	color: #3F9094;
+	color: #A51C30;
 	text-align: center;
 }
 
@@ -37,7 +28,7 @@ h3 {
 }
 
 p, ul li {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Droid Serif', serif;
 	font-size: 19px;
 	line-height: 25px;
 	margin-top: 20px;
@@ -59,8 +50,8 @@ td {
   padding-right: 5px;
 }
 
-a:link, a:visited {
-	color: #3F9094;
+a:link, a:visited, a:hover {
+	color: #A51C30!important;
 }
 
 /* from css-tricks:  */
