@@ -1,36 +1,32 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Droid+Serif|Merriweather|Roboto+Slab:400,700);
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400&display=swap');
 
 div.container-fluid {
   padding-bottom: 2%;
 }
 
 h1, h2 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #A51C30;
 	text-align: center;
 }
 
 h1 {
 	font-size: 45px!important;
-	line-height: 54px;
 }
 
 h2 {
 	font-size: 30px;
-	line-height: 36px;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 25px;
-  line-height: 30px;
 }
 
 p, ul li {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Merriweather', serif;
 	font-size: 19px;
-	line-height: 25px;
 	margin-top: 20px;
   margin-bottom: 0px;
 }
@@ -40,7 +36,7 @@ p, ul li {
 }
 
 table {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-size: 20px;
   line-height: 25px;
 }
