@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather|Montserrat:400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700%7CMontserrat:400,500&display=swap');
 
 div.container-fluid {
   padding-bottom: 2%;
@@ -8,6 +8,7 @@ h1, h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: #A51C30;
 	text-align: center;
+  font-weight: 400;
 }
 
 h1 {
@@ -24,11 +25,18 @@ h3 {
   font-size: 25px;
 }
 
-p, ul li {
+p, ul li, ol li {
 	font-family: 'Merriweather', serif;
 	font-size: 19px;
-	margin-top: 20px;
   margin-bottom: 0px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+ul li, ol li {
+  margin-top: 10px;
 }
 
 .indent {
