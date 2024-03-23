@@ -21,14 +21,18 @@ h2 {
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 25px;
+  /* text-align: center; */
+  font-size: 20px;
 }
 
 p, ul li, ol li {
 	font-family: 'Merriweather', serif;
-	font-size: 19px;
+	font-size: 18px;
   margin-bottom: 0px;
+}
+
+div#talks li {
+  font-size: 16px;
 }
 
 p {
