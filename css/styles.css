@@ -4,6 +4,14 @@ div.container-fluid {
   padding-bottom: 2%;
 }
 
+div#intro {
+  margin-bottom: 25px;
+}
+
+div#intro p {
+  padding-bottom: 10px;
+}
+
 h1, h2 {
 	font-family: 'Montserrat', sans-serif;
 	color: #A51C30;
@@ -23,6 +31,7 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   /* text-align: center; */
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 p, ul li, ol li {
@@ -36,7 +45,13 @@ div#talks li {
 }
 
 p {
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+div#pubs p {  
+  margin-left: 20px;
+  margin-top: 0;
+  font-size: 16px;
 }
 
 ul li, ol li {

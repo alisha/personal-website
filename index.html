@@ -2,8 +2,9 @@
 
 <head>
   <title>Alisha Ukani</title>
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="icon"
     href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/225/female-technologist-type-4_1f469-1f3fd-200d-1f4bb.png">
@@ -12,10 +13,9 @@
 <body>
   <div class="container-fluid">
     <div class="row">
-      <div id="content" class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+      <div id="content" class="col-md-8 col-md-offset-2 col-sm-12">
         <ul class="nav nav-tabs">
           <li role="presentation" id="index"><a href="index.html">Alisha Ukani</a></li>
-          <li role="presentation" id="awards"><a href="awards.html">Awards</a></li>
           <li role="presentation" id="cv"><a href="CV.pdf">CV</a></li>
           <li role="presentation"><a href="http://www.github.com/alisha"><i class="fa fa-github"></i></a></li>
           <li role="presentation"><a href="http://www.linkedin.com/in/alishaukani"><i
@@ -24,62 +24,79 @@
 
         <h1>I'm Alisha Ukani</h1>
 
-        <p>I'm a CS PhD student at UC San Diego. I research web security and
-          privacy from an empirical lens. My advisor
-          is <a href="https://cseweb.ucsd.edu/~snoeren/">Alex Snoeren</a> and I'm a member of the <a
-            href="https://www.sysnet.ucsd.edu/sysnet/">SysNet</a> and <a
-            href="https://cryptosec.ucsd.edu/">CryptoSec</a> groups.</p>
+        <div id="intro" class="col-md-12 col-sm-12">
+          <div class="col-md-4 col-sm-4">
+            <img src="images/AlishaUkani.jpeg" width="100%">
+          </div>
+          <div class="col-md-8 col-sm-8">
+            <p>I'm a fourth-year CS PhD student at UC San Diego. 
+            My research focuses on <b>Internet measurement and security/privacy</b>,
+            focusing on how technology interacts with society and governments.
+              My advisor
+              is <a href="https://cseweb.ucsd.edu/~snoeren/">Alex Snoeren</a>.</p>
 
-        <p>I finished my undergrad degree in CS at Harvard in 2020. I conducted research with Eddie Kohler and James
-          Mickens on stateful serverless computing and browser extension sandboxing.</p>
+            <!-- <p>I finished my undergrad degree in CS at Harvard in 2020. I conducted research with Eddie Kohler and James -->
+              <!-- Mickens on stateful serverless computing and browser extension sandboxing.</p> -->
 
-        <p>Off campus, I served on the City of Cambridge's Open Data Review Board. I've also been a Research Intern at
-          Google and a Software Engineering intern at <a href="https://slack.engineering/re-architecting-slacks-workspace-preferences-how-to-move-to-an-eav-model-to-support-scalability/">Slack</a> and Google.
-        </p>
+            <p>I'm supported by an NSF Graduate Research Fellowship and the ARCS
+            Foundation San Diego Fellowship. I also serve as the Co-President of
+            UCSD's Graduate Women in Computing (GradWIC) group.</p>
 
-        <p>I am supported by an NSF Graduate Research Fellowship and the ARCS
-          Foundation San Diego Fellowship.</p>
-
-        <p>You can contact me at aukani@ucsd.edu.</p>
+            <p>You can contact me at aukani@ucsd.edu.</p>
+          </div>
+        </div>
 
         <h2>News</h2>
         <ul>
           <li>2024-02-19 - I will be serving on the <a href="https://conferences.sigcomm.org/imc/2024/">IMC 2024</a> program committee</li>
           <li>2024-01-23 - Our paper on detecting fingerprinting on
           login/sign-up pages was accepted to the Web Conference (WWW) 2024!</li>
-          <!-- <li>2022-11-17 - I earned my MS degree, and I'm excited to continue with the
-            rest of the PhD program</li> -->
-          <!-- <li>2022-08-17 - Our paper on bounce tracking detection was accepted
-            to IMC 2022!</li> -->
-          <!-- <li>2022-06-13 - Started a research internship at Google working to
-            detect browser fingerprinting on the <a href="https://privacysandbox.com/intl/en_us/">Privacy Sandbox</a>
-            team</li> -->
-          <!-- <li>2022-04-04 - Awarded the NSF Graduate Research Fellowship</li> -->
         </ul>
 
-        <h2>Publications</h2>
-        <ol>
-          <li>"<a href="https://alishaukani.com/papers/fplogin.pdf">The Double Edged Sword: Identifying Authentication Pages and
-            their Fingerprinting Behavior</a>," A. Senol*, <b>A. Ukani*</b>, D. Cutler, I.
-          Bilogrevic, to appear at the Web Conference (WWW) 2024.
-          <br> [<a href="https://youtu.be/8yHOjl7EvPg">Promo video</a>]
-          [<a href="https://alishaukani.com/slides/fplogin.pdf">Slides</a>]
-        </li>
-          <li>"<a href="https://www.sysnet.ucsd.edu/~voelker/pubs/fireeye-cset23.pdf">In the Line of Fire: Risks of DPI-triggered Data
-          Collection</a>," A. Mirian, <b>A. Ukani</b>, I. Foster, G. Akiwate, T. Halicioglu, C. Moore, A.C. Snoeren, G. Voelker, S. Savage, Proceedings of Workshop on Cyber Security Experimentation and Test (CSET) 2023.</li>
-          <li>"<a href="https://cseweb.ucsd.edu/~savage/papers/IMC2022-UID.pdf">Measuring UID Smuggling in the
-              Wild</a>," A. Randall, P. Snyder, <b>A. Ukani</b>, A. Snoeren, G. Voelker,
-            S. Savage, A. Schulman. Proceedings of the ACM Internet Measurement
-            Conference (IMC) 2022.
-          </li>
-          <li>"<a href="https://cseweb.ucsd.edu/~snoeren/papers/lockdown-imc21.pdf">Locked-In during Lock-Down:
-              Undergraduate Life on the Internet in a Pandemic</a>," <b>A. Ukani</b>, A. Mirian, A. Snoeren, Proceedings
-            of the ACM Internet Measurement Conference (IMC)
-            2021.
-            <br> [<a href="https://youtu.be/deptYbp2nnQ">Video</a>]
-          </li>
-        </ol>
+        <div id="pubs">
+          <h2>Publications</h2>
+
+          <h3>The Double Edged Sword: Identifying Authentication Pages and
+            their Fingerprinting Behavior</h3>
+          <p>A. Senol*, <b>A. Ukani*</b>, D. Cutler, I. Bilogrevic <br> The Web
+          Conference (WWW) 2024<br>[<a href="https://alishaukani.com/papers/fplogin.pdf">Paper</a>] [<a href="https://youtu.be/8yHOjl7EvPg">Promo
+          video</a>]
+            [<a href="https://alishaukani.com/slides/fplogin.pdf">Slides</a>]</p>
+
+          <h3>In the Line of Fire: Risks of DPI-triggered Data
+            Collection</h3>
+          <p>
+            A. Mirian, <b>A. Ukani</b>, I. Foster, G. Akiwate, T. Halicioglu, C.
+            Moore, A.C. Snoeren, G. Voelker, S. Savage<br>
+            Workshop on Cyber Security Experimentation and Test (CSET) 2023<br>
+            [<a href="https://www.sysnet.ucsd.edu/~voelker/pubs/fireeye-cset23.pdf">Paper</a>]
+          </p>
+
+          <h3>Measuring UID Smuggling in the Wild</h3>
+          <p>
+            A. Randall, P. Snyder, <b>A. Ukani</b>, A. Snoeren, G. Voelker, S. Savage, A. Schulman<br>
+            Internet Measurement Conference (IMC) 2022<br>
+            [<a href="https://cseweb.ucsd.edu/~savage/papers/IMC2022-UID.pdf">Paper</a>]
+          </p>
+
+          <h3>Locked-In during Lock-Down: Undergraduate Life on the Internet in a Pandemic</h3>
+          <p>
+            <b>A. Ukani</b>, A. Mirian, A. Snoeren<br>
+            Internet Measurement Conference (IMC) 2021<br>
+            [<a
+            href="https://cseweb.ucsd.edu/~snoeren/papers/lockdown-imc21.pdf">Paper</a>] [<a href="https://youtu.be/deptYbp2nnQ">Video</a>]
+          </p>
+        </div>
         <p>*Indicates equal contributions</p>
+
+        <div id="awards">
+          <h2>Select Awards</h2>
+          <ul>
+            <li>NSF Graduate Research Fellowship (2022)</li>
+            <li>ARCS Foundation San Diego Fellowship (2021-2024)</li>
+            <li>UCSD CSE Award for Contributions to Diversity (2022)</li>
+          </ul>
+        </div>
 
         <div id="talks">
           <h2>Select Talks</h2>
