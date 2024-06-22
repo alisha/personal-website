@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700%7CMontserrat:400,500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700%7CMontserrat:400,500,600&display=swap');
 
 div.container-fluid {
   padding-bottom: 2%;
@@ -10,48 +10,30 @@ div#intro {
 
 div#intro p {
   padding-bottom: 10px;
+  margin-top: 0px;
 }
 
 h1, h2 {
-	font-family: 'Montserrat', sans-serif;
-	color: #A51C30;
-	text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #A51C30;
+  text-align: center;
   font-weight: 400;
-}
-
-h1 {
-	font-size: 45px!important;
-}
-
-h2 {
-	font-size: 30px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  /* text-align: center; */
-  font-size: 20px;
+  font-weight: 600;
   margin-bottom: 5px;
 }
 
 p, ul li, ol li {
-	font-family: 'Merriweather', serif;
-	font-size: 18px;
+  font-family: 'Merriweather', serif;
   margin-bottom: 0px;
 }
 
-div#talks li {
-  font-size: 16px;
-}
-
-p {
-  margin-top: 10px;
-}
-
-div#pubs p {  
+div#pubs p {
   margin-left: 20px;
   margin-top: 0;
-  font-size: 16px;
 }
 
 ul li, ol li {
@@ -60,6 +42,10 @@ ul li, ol li {
 
 .indent {
   padding-left: 40px;
+}
+
+img {
+  max-width: 100%;
 }
 
 table {
@@ -74,7 +60,7 @@ td {
 }
 
 a:link, a:visited, a:hover {
-	color: #A51C30!important;
+  color: #A51C30!important;
 }
 
 /* from css-tricks:  */

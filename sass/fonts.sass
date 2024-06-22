@@ -1,0 +1,79 @@
+@use "sass:map"
+
+$grid-breakpoints: (xs: 0px, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1400px)
+$container-max-widths: (sm: 540px, md: 720px, lg: 960px, xl: 1140px, xxl: 1320px)
+$layout-breakpoint-sm: 576px
+$layout-breakpoint-md: 768px
+$layout-breakpoint-lg: 992px
+$layout-breakpoint-xl: 1200px
+$layout-breakpoint-xxl: 1400px
+
+@media (min-width: 0px)
+  h1
+    font-size: 35px
+  h2
+    font-size: 25px
+  h3
+    font-size: 15px
+  p, li
+    font-size: 15px
+  div#talks li
+    font-size: 12px
+  div#pubs p
+    font-size: 12px
+
+@media (min-width: $layout-breakpoint-sm)
+  h1
+    font-size: 35px
+  h2
+    font-size: 25px
+  h3
+    font-size: 15px
+  p, li
+    font-size: 15px
+  div#talks li
+    font-size: 12px
+  div#pubs p
+    font-size: 12px
+
+@media (min-width: $layout-breakpoint-md)
+  h1
+    font-size: 35px
+  h2
+    font-size: 25px
+  h3
+    font-size: 15px
+  p, li
+    font-size: 15px
+  div#talks li
+    font-size: 12px
+  div#pubs p
+    font-size: 12px
+
+@media (min-width: $layout-breakpoint-lg)
+  h1
+    font-size: 35px
+  h2
+    font-size: 25px
+  h3
+    font-size: 18px
+  p, li
+    font-size: 16px
+  div#talks li
+    font-size: 14px
+  div#pubs p
+    font-size: 14px
+
+@media (min-width: $layout-breakpoint-xl)
+  h1
+    font-size: 40px
+  h2
+    font-size: 30px
+  h3
+    font-size: 20px
+  p, li
+    font-size: 18px
+  div#talks li
+    font-size: 16px
+  div#pubs p
+    font-size: 16px
