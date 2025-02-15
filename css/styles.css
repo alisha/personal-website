@@ -26,6 +26,10 @@ h3 {
   margin-bottom: 5px;
 }
 
+p {
+  line-height: 1.6;
+}
+
 p, ul li, ol li {
   font-family: 'Merriweather', serif;
   margin-bottom: 0px;
