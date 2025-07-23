@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700%7CMontserrat:400,500,600&display=swap');
 
+
 div.container-fluid {
   padding-bottom: 2%;
 }
 
-div#intro {
+div#postdoc {
   margin-bottom: 25px;
+  padding-top: 0px;
+  padding-left: 10px;
 }
 
 div#intro p {
@@ -30,7 +33,7 @@ p {
   line-height: 1.6;
 }
 
-p, ul li, ol li {
+p, ul li, ol li, .highlight {
   font-family: 'Merriweather', serif;
   margin-bottom: 0px;
 }
@@ -81,4 +84,17 @@ a:link, a:visited, a:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.highlight {
+  background-color: #ffc9d1;
+  padding: 10px;
+  padding-left: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border-left: 4px solid #A51C30;
+}
+
+div#pubs .highlight {
+  margin-left: 20px;
 }
