@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:400,700%7CMontserrat:400,500,600&display=swap');
 
+body {
+  text-wrap: pretty;
+}
 
 div.container-fluid {
   padding-bottom: 2%;
