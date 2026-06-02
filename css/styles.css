@@ -2,6 +2,7 @@
 
 body {
   text-wrap: pretty;
+  color: #012A36;
 }
 
 div.container-fluid {
@@ -99,7 +100,7 @@ a:link, a:visited, a:hover {
 }
 
 .highlight {
-  background-color: #ffc9d1;
+  background-color: #E6BCCDCC;
   padding: 10px;
   padding-left: 0px;
   border-radius: 5px;
